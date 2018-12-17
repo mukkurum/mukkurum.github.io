@@ -1,5 +1,5 @@
 var pageNum = 0
-var maxPageNum = 4
+var maxPageNum = 3
 var starData = [
     ["빵점동맹(0-19)", 9.76, 9.81, 9.85, 9.86, 9.84, 9.87, 9.84, 9.76, 9.49, 9.55, 9.52, 9.07, 9.74, 9.62, 9.63, 9.32, 9.52, 9.58, 8.72, 8.97],
     ["빵점동맹(20-39)", 9.46, 9.49, 9.44, 9.32, 9.04, 9.47, 9.48, 9.82, 9.84, 9.83, 9.86, 9.85, 9.90, 9.84, 9.69, 9.62, 9.72, 9.72, 9.82, 9.58],
@@ -15,7 +15,7 @@ window.addEventListener("load", function(event) {
         axis: {
             y: {
               max: 10,
-              min: 1
+              min: 4
             }
         },
         color: {
@@ -40,7 +40,7 @@ var MovePage = new Vue({
                 axis: {
                     y: {
                       max: 10,
-                      min: 1
+                      min: 4
                     }
                 },
                 color: {
@@ -61,7 +61,7 @@ var MovePage = new Vue({
                 axis: {
                     y: {
                       max: 10,
-                      min: 1
+                      min: 4
                     }
                   },
                   color: {

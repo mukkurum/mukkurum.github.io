@@ -1,5 +1,5 @@
 var pageNum = 0
-var maxPageNum = 5
+var maxPageNum = 4
 var starData = [
     ["킬더킹(0-19)", 9.81, 9.87, 9.88, 9.87, 9.74, 9.78, 9.84, 9.84, 9.82, 9.84, 9.84, 9.81, 9.80, 9.81, 9.84, 9.83, 9.82, 9.82, 9.81, 9.80],
     ["킬더킹(20-39)", 9.80, 9.78, 9.87, 9.78, 9.71, 9.67, 9.60, 9.20, 7.33, 8.39, 9.08, 9.18, 9.23, 9.41, 9.54, 9.62, 9.73, 9.69, 9.84, 9.77],
@@ -16,7 +16,7 @@ window.addEventListener("load", function(event) {
         axis: {
             y: {
               max: 10,
-              min: 1
+              min: 4
             }
         },
         bindto: "#Chart"
@@ -36,7 +36,7 @@ var MovePage = new Vue({
                 axis: {
                     y: {
                       max: 10,
-                      min: 1
+                      min: 4
                     }
                 },
                 bindto: "#Chart"
@@ -52,7 +52,7 @@ var MovePage = new Vue({
                 axis: {
                     y: {
                       max: 10,
-                      min: 1
+                      min: 4
                     }
                   },
                 bindto: "#Chart"
