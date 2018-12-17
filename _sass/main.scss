@@ -1,3 +1,108 @@
-.current {
-    color: green;
-  }
+* {
+  font-family: 'Poor Story', cursive;
+  box-sizing: border-box;
+  user-select: none;
+}
+body {
+  background: #f4f2f1;
+  margin: 0px;
+}
+/* header */
+#header {
+  position: fixed;
+  top: 0;
+  height: 8em;
+  width: 100%;
+  z-index: 999;
+  padding: 1em;
+}
+#header_title {
+  margin-top: 0.5em;
+  font-size: 3em;
+  overflow: hidden;
+  text-align: center;
+  display: block;
+}
+#header_title a {
+  text-decoration: none;
+  color: #1a1a1a;
+}
+main {
+  position: absolute;
+  top: 0;
+  left: 20%;
+  margin-top: 8em;
+  width: 80%;
+  padding: 2em;
+}
+#nav {
+  text-align: center;
+  margin-top: 8em;
+  float: left;
+  width: 20%;
+  padding: 1em;
+}
+#nav > a {
+  list-style: none;
+  font-size: 1.3em;
+  display: block;
+  text-decoration: none;
+  color: #1a1a1a;
+  text-align: center;
+  margin-bottom: 2em;
+}
+#nav > .current {
+  color: green;
+  font-weight: bold;
+}
+section {
+  width: 100%;
+  padding-right: 5%;
+}
+
+#section > .button {
+  padding: 0.5em;
+  margin-top: 1em;
+  display: inline-block;
+  cursor: pointer;
+  border: 0.1em solid #1a1a1a;
+  border-radius: 0.5em;
+  background-color: #ffffff;
+}
+#section > .button:hover {
+  background-color: #1a1a1a;
+  color: #ffffff;  
+}
+#section > .left {
+  margin-left: 1em;
+  float: left;
+}
+#section > .right {
+  margin-right: 1em;
+  float: right;
+}
+#Chart {
+  background-color: #ffffff;
+}
+.description {
+  font-size: 1.2em;
+}
+
+.linking {
+  margin-top: 1em;
+  display: inline-block;
+}
+.linking > * {
+  display: block;
+}
+.linking a {
+  display: block;
+  text-decoration: none;
+  color: #1a1a1a;
+}
+.linking a:hover {
+  color: #ffe874;
+}
+.exlink {
+  margin-top: 5em;
+}

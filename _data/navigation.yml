@@ -1,6 +1,8 @@
 - name: Home
   link: /
-- name: About
-  link: /about.html
+# - name: About
+#   link: /about.html
 - name: 킬더킹
   link: /killtheking.html
+- name: 빵점동맹
+  link: /zeroalliance.html
